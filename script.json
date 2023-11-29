@@ -1,0 +1,102 @@
+{
+  "project": [
+      {
+        "name": "Luxcare",
+        "id": "luxcare",
+        "text": "LUXCARE",
+        "description": "Car Monetizing and Programming Service",
+        "status": "Completed",
+        "src": "/proj_img/akram-huseyn-8jmbYiI7qa8-unsplash_batcheditor_fotor.jpg", 
+        "git": "/skill_img/Git.png",
+        "gitLink": "https://github.com/Ehti48/Luxcare",
+        "netlify": "/skill_img/netlify-logo-vector-2023.png",
+        "netLink": "https://luxcare-ehti.netlify.app"
+    
+      },
+     
+      {
+        "name": "Foodcart",
+        "id": "foodcart",
+        "text": "FOODCART",
+        "description": "Restaurent and Food Ordering ",
+        "status": "Completed",
+        "src": "/proj_img/sam-moghadam-khamseh-yxZSAjyToP4-unsplash_batcheditor_fotor.jpg",
+        "git": "/skill_img/Git.png",
+        "gitLink": "https://github.com/Ehti48/FoodCart",
+        "netlify": "/skill_img/netlify-logo-vector-2023.png",
+        "netLink": "https://foodcart-ehti.netlify.app"
+      },
+      {
+        "name": "Qr Generator",
+        "id": "qr",
+        "text": "QR GENERATOR",
+        "description": "Random QR Code Generator",
+        "status": "Completed",
+        "src": "/proj_img/risto-kokkonen-DHPpazu7ixw-unsplash_batcheditor_fotor.jpg",
+        "git": "/skill_img/Git.png",
+        "gitLink": "https://github.com/Ehti48/QR_Code",
+        "netlify": "/skill_img/netlify-logo-vector-2023.png",
+        "netLink": "https://qr-code-ehti.netlify.app"
+      },
+      {
+        "name": "Quiz Game",
+        "id": "quiz",
+        "text": "QUIZ",
+        "description": "Awesome Quiz Game",
+        "status": "Completed",
+        "src": "/proj_img/olav-ahrens-rotne-jvBXiynINGE-unsplash_batcheditor_fotor.jpg",
+        "git": "/skill_img/Git.png",
+        "gitLink": "https://github.com/Ehti48/Quiz_App",
+        "netlify": "/skill_img/netlify-logo-vector-2023.png",
+        "netLink": "https://quiz-ehti.netlify.app"
+      },
+      {
+        "name": "To-Do",
+        "id": "to-do",
+        "text": "TO-DO LIST",
+        "description": "Your Daily Task Reminder",
+        "status": "In Progress",
+        "src": "/proj_img/kelly-sikkema-wN7hxU_P0aI-unsplash.jpg",
+        "git": "/skill_img/Git.png",
+        "gitLink": "",
+        "netlify": "/skill_img/netlify-logo-vector-2023.png",
+        "netLink": ""
+      },
+      {
+        "name": "Weather Forcast",
+        "id": "weather",
+        "text": "WEATHER FORCAST",
+        "description": "",
+        "status": "Completed",
+        "src": "/proj_img/daniel-ramirez-q4TfWtnz_xw-unsplash_batcheditor_fotor.jpg",
+        "git": "/skill_img/Git.png",
+        "gitLink": "https://github.com/Ehti48/Weather_App",
+        "netlify": "/skill_img/netlify-logo-vector-2023.png",
+        "netLink": "https://weather-app-ehti.netlify.app"
+      },
+      {
+        "name": "Portfolio",
+        "id": "portfolio",
+        "text": "MY PORTFOLIO",
+        "description": "Personal Portfolio",
+        "status": "In Progress",
+        "src": "/proj_img/workshop-2Kqhw3qST0o-unsplash.jpg",
+        "git": "/skill_img/Git.png",
+        "gitLink": "",
+        "netlify": "/skill_img/netlify-logo-vector-2023.png",
+        "netLink": ""
+      },
+      {
+        "name": "Portfolio",
+        "id": "portfolio",
+        "text": "MY PORTFOLIO",
+        "description": "Personal Portfolio",
+        "status": "In Progress",
+        "src": "/proj_img/workshop-2Kqhw3qST0o-unsplash.jpg",
+        "git": "/skill_img/Git.png",
+        "gitLink": "",
+        "netlify": "/skill_img/netlify-logo-vector-2023.png",
+        "netLink": ""
+      }
+    ]
+  }

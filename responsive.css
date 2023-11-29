@@ -1,0 +1,194 @@
+@media(max-width:1240px){
+    .navbar{
+        opacity: 0;
+        transform: translateX(-100%);
+        transition: all 0.7s ease-out;
+        background: linear-gradient(180deg, #0b1f38b0, #01040ba6, #051f39ad);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+    }
+    label{
+        width: 100%;
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        /* padding-left: 20px; */
+        position: fixed;
+        z-index: 11;
+      }
+      
+      .hamburger input {
+        display: none;
+      }
+      
+      .hamburger svg {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        border: 3px solid #ffffff7c;
+        border-radius: 15px;
+        background: #081e39;
+        /* box-shadow:  7px 7px 14px #051222,
+             -7px -7px 14px #0b2a50; */
+        /* The size of the SVG defines the overall size */
+        height: 3em;
+        /* Define the transition for transforming the SVG */
+        transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      
+      .line {
+        fill: none;
+        stroke: #ffffff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3;
+        /* Define the transition for transforming the Stroke */
+        transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+                    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      
+      .line-top-bottom {
+        stroke-dasharray: 12 63;
+      }
+      
+      .hamburger input:checked + svg {
+        transform: rotate(-45deg);
+      }
+      
+      .hamburger input:checked + svg .line-top-bottom {
+        stroke-dasharray: 20 300;
+        stroke-dashoffset: -32.42;
+      }
+      
+    
+    .container-1 {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .project {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .about-sec {
+        width: 100%;
+        margin-left: 0%;
+    }
+    section{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+@media(max-width:1200px){
+
+    label{
+        width: 100%;
+    }
+
+}
+@media(max-width:600px){
+    .right-sec .bg-img .main-header h1 {
+        font-size: clamp(1.5rem, 3rem, 4rem);
+    }
+    .outer-header {
+    font-size: clamp(15px, 20px, 30px);
+    }
+    .abt-header p {
+        height: 13vh;
+        overflow-y: scroll;
+    }
+    .res{
+        height: auto;
+    }
+    .left-res {
+        min-width: 400px;
+    }
+    .right-res {
+        min-width: 400px;
+    }
+
+    .contact-flex {
+        width: 80%;
+        min-width: 400px;
+    }
+    .mail-sec {
+        width: 50%;
+        min-width: 350px;
+    }
+}
+@media(max-width:450px){
+    #home{
+        height: 50vh;
+    }
+    .right-sec .bg-img {
+        height: 50vh;
+    }
+    .social-links i {
+        padding: 7px 8px;
+        margin: 2px;
+    }
+    
+    .social-links .fb{
+        padding: 7px 11px;
+    }
+    .right-sec .bg-img .main-header h1 {
+        font-size: clamp(1.5rem, 2rem, 4rem);
+    }
+    .outer-header {
+    font-size: clamp(15px, 15px, 30px);
+    }
+    .bio-sec {
+        margin: 50px 0px 0px 0px;
+    }
+    .res{
+        height: auto;
+    }
+    .left-res {
+        min-width: 300px;
+    }
+    .right-res {
+        min-width: 300px;
+    }
+    .contact-flex {
+        width: 100%;
+        min-width: 300px;
+    }
+    .mail-sec {
+        width: 50%;
+        min-width: 300px;
+    }
+}
+@media(max-width:350px){
+    .right-sec .bg-img .main-header h1 {
+        font-size: clamp(1.5rem, 2rem, 4rem);
+    }
+    .outer-header {
+    font-size: clamp(10px, 12px, 30px);
+    }
+    .left-info, .right-info li {
+        min-width: 250px;
+        font-size: 13px;
+    }
+    .bio-sec {
+        margin: 90px 0px 0px 0px;
+    }
+    .res{
+        height: auto;
+    }
+    .left-res {
+        min-width: 250px;
+    }
+    .right-res {
+        min-width: 250px;
+    }
+    .contact-flex {
+        width: 80%;
+        min-width: 250px;
+    }
+    .mail-sec {
+        width: 50%;
+        min-width: 250px;
+    }
+}
+
