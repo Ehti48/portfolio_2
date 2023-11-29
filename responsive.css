@@ -107,6 +107,11 @@
     .right-res {
         min-width: 400px;
     }
+    .box {
+        width: 350px;
+        height: 210px;
+        border-radius: 5px;
+    }
 
     .contact-flex {
         width: 80%;
@@ -138,6 +143,13 @@
     .outer-header {
     font-size: clamp(15px, 15px, 30px);
     }
+    .about-sec{
+        height: 80vh;
+    }
+    .abt-header h1 {
+        width: 75px;
+        margin: 10px 0px 5px 0px;
+    }
     .bio-sec {
         margin: 50px 0px 0px 0px;
     }
@@ -165,6 +177,9 @@
     }
     .outer-header {
     font-size: clamp(10px, 12px, 30px);
+    }
+    .about-sec{
+        height: 80vh;
     }
     .left-info, .right-info li {
         min-width: 250px;
