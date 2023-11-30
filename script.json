@@ -85,18 +85,6 @@
         "gitLink": "",
         "netlify": "/skill_img/netlify-logo-vector-2023.png",
         "netLink": ""
-      },
-      {
-        "name": "Portfolio",
-        "id": "portfolio",
-        "text": "MY PORTFOLIO",
-        "description": "Personal Portfolio",
-        "status": "In Progress",
-        "src": "/proj_img/workshop-2Kqhw3qST0o-unsplash.jpg",
-        "git": "/skill_img/Git.png",
-        "gitLink": "",
-        "netlify": "/skill_img/netlify-logo-vector-2023.png",
-        "netLink": ""
       }
     ]
   }
