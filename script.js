@@ -190,9 +190,3 @@ fetch('script.json')
   })
   .catch(error => console.error('Error fetching data:', error));
 
-
-  //----------------GSAP--------------------//
-
-  //list as many as you'd like
-gsap.registerPlugin(MotionPathPlugin, ScrollTrigger, MorphSVGPlugin);
-
