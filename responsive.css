@@ -1,4 +1,4 @@
-@media(max-width:1240px){
+@media(max-width:1242px){
     .navbar{
         opacity: 0;
         transform: translateX(-100%);
