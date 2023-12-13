@@ -87,6 +87,21 @@
     }
 
 }
+@media(max-width:1050px){
+    .about-sec {
+        height: 105vh;
+    }
+}
+@media(max-width:1000px){
+    .about-sec {
+        height: 110vh;
+    }
+}
+@media(max-width:650px){
+    .about-sec {
+        height: 120vh;
+    }
+}
 @media(max-width:600px){
     #home{
         height: 60vh;
@@ -106,6 +121,7 @@
     }
     .res{
         height: auto;
+        min-height: 10vh;
     }
     .left-res {
         min-width: 400px;
@@ -128,12 +144,15 @@
         min-width: 350px;
     }
 }
-@media(max-width:450px){
+@media(max-width:550px){
     #home{
         height: 50vh;
     }
     .right-sec .bg-img {
         height: 50vh;
+        /* background-position: left; */
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(5px);
     }
     .social-links i {
         padding: 7px 8px;
@@ -150,14 +169,46 @@
     font-size: clamp(15px, 15px, 30px);
     }
     .about-sec{
-        height: 80vh;
+        height: 130vh;
+    }
+    .abt-header{
+        text-align: center;
+        padding: 40px 20px 0px 20px;
     }
     .abt-header h1 {
-        width: 75px;
+        width: 100%;
         margin: 10px 0px 5px 0px;
     }
     .bio-sec {
-        margin: 50px 0px 0px 0px;
+        text-align: center;
+    margin: 30px 0px 0px 0px;
+    }
+    .flex-info {
+        text-align: justify;
+    }
+    .project {
+        text-align: center;
+    }
+    .project h1 {
+        width: 100%;
+        margin: 10px 0px 0px 0px;
+    }
+    .top {
+    text-align: justify;
+    }
+    .skill {
+        text-align: center;
+    }
+    .skill h1 {
+        width: 100%;
+        margin: 10px 0px 0px 0px;
+    }
+    .resume {
+        text-align: center;
+    }
+    .resume .res-h1 {
+        width: 100%;
+        margin: 0px 0px;
     }
     .res{
         height: auto;
@@ -168,9 +219,101 @@
     .right-res {
         min-width: 300px;
     }
+    .contact {
+        text-align: center;
+    }
+    .contact .cont-h1 {
+        width: 100%;
+        margin: 20px 0px 0px 0px;
+    }
     .contact-flex {
         width: 100%;
         min-width: 300px;
+        border: 1px solid #00000059;
+    box-shadow: 7px 7px 14px #83857a52, -7px -7px 14px #f1f4e0a9;
+    }
+    .location-sec {
+        text-align: center;
+        min-width: 250px;
+    }
+    .mail-sec {
+        width: 50%;
+        min-width: 300px;
+    }
+}
+@media(max-width:450px){
+    #home{
+        height: 50vh;
+    }
+    .right-sec .bg-img {
+        height: 50vh;
+        /* background-position: left; */
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(5px);
+    }
+    .social-links i {
+        padding: 7px 8px;
+        margin: 2px;
+    }
+    
+    .social-links .fb{
+        padding: 7px 11px;
+    }
+    .right-sec .bg-img .main-header h1 {
+        font-size: clamp(1.5rem, 2rem, 4rem);
+    }
+    .outer-header {
+    font-size: clamp(15px, 15px, 30px);
+    }
+    .about-sec{
+        height: 130vh;
+    }
+    .abt-header{
+        text-align: center;
+        padding: 40px 20px 0px 20px;
+    }
+    .abt-header h1 {
+        width: 100%;
+        margin: 10px 0px 5px 0px;
+    }
+    .bio-sec {
+        text-align: center;
+    margin: 30px 0px 0px 0px;
+    }
+    .flex-info {
+        text-align: justify;
+    }
+    .project {
+        text-align: center;
+    }
+    .project h1 {
+        width: 100%;
+        margin: 10px 0px 0px 0px;
+    }
+    .top {
+    text-align: justify;
+    }
+    .res{
+        height: auto;
+    }
+    .left-res {
+        min-width: 300px;
+    }
+    .right-res {
+        min-width: 300px;
+    }
+    .contact .cont-p {
+        margin: 0px 0px 0px 0px;
+    }
+    .contact-flex {
+        width: 100%;
+        min-width: 300px;
+        border: 1px solid #00000059;
+    box-shadow: 7px 7px 14px #83857a52, -7px -7px 14px #f1f4e0a9;
+    }
+    .location-sec {
+        text-align: center;
+        min-width: 250px;
     }
     .mail-sec {
         width: 50%;
@@ -209,11 +352,20 @@
     }
     .contact-flex {
         width: 80%;
+        min-width: 260px;
+    }
+    .location-sec {
+        text-align: center;
         min-width: 250px;
     }
     .mail-sec {
         width: 50%;
         min-width: 250px;
     }
+    .mail-sec input, textarea {
+        /* width: 100%; */
+        padding: 5px;
+        margin-bottom: 10px;
+}
 }
 
