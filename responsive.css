@@ -241,6 +241,7 @@
         min-width: 300px;
     }
 }
+
 @media(max-width:450px){
     #home{
         height: 50vh;
@@ -318,6 +319,11 @@
     .mail-sec {
         width: 50%;
         min-width: 300px;
+    }
+}
+@media(max-width:415px){
+    .about-sec{
+        height: 90vh;
     }
 }
 @media(max-width:350px){
