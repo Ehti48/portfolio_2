@@ -18,7 +18,7 @@ body{
 }
 
 .navbar {
-    width: 21%;
+    width: clamp(21%,50%,317px);
     height: 100vh;
     position: fixed;
     z-index: 10;
