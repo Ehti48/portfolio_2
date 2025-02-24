@@ -338,7 +338,7 @@
     font-size: clamp(10px, 12px, 30px);
     }
     .about-sec{
-        height: 80vh;
+        height: 135vh;
     }
     .left-info, .right-info li {
         min-width: 250px;
