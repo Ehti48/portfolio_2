@@ -85,6 +85,18 @@
         "gitLink": "",
         "netlify": "/skill_img/netlify-logo-vector-2023.png",
         "netLink": ""
+      },
+      {
+        "name": "Aspira-Web",
+        "id": "aspira",
+        "text": "AspiraSys Web",
+        "description": "Personal Portfolio",
+        "status": "In Progress",
+        "src": "https://t4.ftcdn.net/jpg/05/45/42/81/360_F_545428173_uyYWJoR9n5uJFYIWfDa2C49AzIECcU20.jpg",
+        "git": "/skill_img/Git.png",
+        "gitLink": "",
+        "netlify": "/skill_img/netlify-logo-vector-2023.png",
+        "netLink": ""
       }
     ]
   }
